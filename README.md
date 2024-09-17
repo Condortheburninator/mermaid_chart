@@ -58,5 +58,5 @@ flowchart LR
 ```
 
 :books: bibliography:
-- [ascii art generato](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)r
+- [ascii art generator](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 - [tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
