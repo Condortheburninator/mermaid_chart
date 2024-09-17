@@ -24,13 +24,14 @@ Still so much to explore:
 ```mermaid
 
 ---
+
 title: Audit Flow
 
 ---
 %%{
     init:
         {
-            'theme':'neutral'
+            'theme':'dark'
             ,'fontFamily':'monospace'
             ,'darkMode':'true'
         }
@@ -53,13 +54,6 @@ flowchart LR
     J[aggregate verication sources]     --> |fa:fa-file csv| M[send output to G Drive]
     L[detailed verifation sources]      --> |fa:fa-file csv| M[send output to G Drive]
     M[send output to G Drive]           --> P[inform compliance team]
-
-
-    %% A[Christmas] -->|Get money| B(Go shopping)
-    %% B --> C{Let me think}
-    %% C -->|One| D[Laptop]
-    %% C -->|Two| E[iPhone]
-    %% C -->|Three| F[fa:fa-car Car]
 
 ```
 
