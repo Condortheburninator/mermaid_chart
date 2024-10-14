@@ -31,7 +31,7 @@ title: Audit Flow
 %%{
     init:
         {
-            'theme':'dark'
+             'theme':'dark'
             ,'fontFamily':'monospace'
             ,'darkMode':'true'
         }
@@ -49,10 +49,10 @@ flowchart LR
     G[check Dupes]                      --> H[find columns]
     H[find columns]                     --> E[EDA]
     E[EDA]                              --> I[filter out Opt-outs]
-    I[filter out Opt-outs]              --> J[aggregate verication sources]
-    J[aggregate verication sources]     --> L[detailed verifation sources]
-    J[aggregate verication sources]     --> |fa:fa-file csv| M[send output to G Drive]
-    L[detailed verifation sources]      --> |fa:fa-file csv| M[send output to G Drive]
+    I[filter out Opt-outs]              --> J[aggregate verification sources]
+    J[aggregate verification sources]   --> L[detailed verification sources]
+    J[aggregate verification sources]   --> |fa:fa-file csv| M[send output to G Drive]
+    L[detailed verification sources]    --> |fa:fa-file csv| M[send output to G Drive]
     M[send output to G Drive]           --> P[inform compliance team]
 
 ```
